@@ -1,0 +1,14 @@
+name: international_undergrad_tuition
+title: international_undergrad_tuition
+username:
+account: zhang-yiran
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7110429
+bundleId: 6336396
+url: https://zhang-yiran.shinyapps.io/international_undergrad_tuition/
+when: 1664134394.1682
+lastSyncTime: 1664134394.16821
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Untitled.R

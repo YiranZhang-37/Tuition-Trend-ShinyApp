@@ -1,0 +1,75 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"International undergraduate tuition fees by field of study (current dollars)","37100005","477-0023","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710000501",1;2;3;4;5;6,"CURRENT - a cube available to the public and that is current","Annual","2006-01-01","2022-01-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Field of study",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador","[10]","2","1","",,
+"1","Prince Edward Island","[11]","3","1","",,
+"1","Nova Scotia","[12]","4","1","",,
+"1","New Brunswick","[13]","5","1","",,
+"1","Quebec","[24]","6","1","",,
+"1","Ontario","[35]","7","1","",,
+"1","Manitoba","[46]","8","1","",,
+"1","Saskatchewan","[47]","9","1","",,
+"1","Alberta","[48]","10","1","",,
+"1","British Columbia","[59]","11","1","",,
+"1","Yukon","[60]","12","1","",,
+"1","Canada","[11124]","1","","",,
+"2","Law","","5","19","",,
+"2","Business, management and public administration","","6","19","",,
+"2","Physical and life sciences and technologies","","7","19","",,
+"2","Mathematics, computer and information sciences","","8","19","",,
+"2","Engineering","","9","19","",,
+"2","Architecture","","10","19","",,
+"2","Agriculture, natural resources and conservation","","11","19","",,
+"2","Dentistry","","12","19","",,
+"2","Medicine","","13","19","",,
+"2","Nursing","","14","19","",,
+"2","Pharmacy","","15","19","",,
+"2","Veterinary medicine","","16","19","",,
+"2","Other health, parks, recreation and fitness","","17","19","",,
+"2","Personal, protective and transportation services","","18","19","",,
+"2","Optometry","","20","19","",,
+"2","Social and behavioural sciences, and legal studies","","4","19","",,
+"2","Education","","1","19","",,
+"2","Visual and performing arts, and communications technologies","","2","19","",,
+"2","Humanities","","3","19","",,
+"2","Total, field of study","","19","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3123","Tuition and Living Accommodation Costs"
+
+"Subject Code","Subject Name"
+"37","Education, training and learning"
+
+"Note ID",Note
+1,"Data for 2022/2023 are preliminary."
+2,"The national and provincial tuition fee averages are weighted with the latest enrolment data (2019/2020 Postsecondary Student Information System). If the number of enrolments is unknown for a given program, that program is excluded from the averages. The same enrolment data are used for the weighting of both years, 2021/2022 and 2022/2023, thereby permitting the comparison of changes in the tuition fees only."
+3,"As the distribution of enrolment varies from period to period, caution must be exercised when making long-term historical comparisons."
+4,"It is important to note that tuition fee increases are generally regulated by provincial policies. However, some programs may be exempted from these policies resulting in possible increases that exceed provincial limits."
+5,"Data in this release do not take into account financial assistance or tax rebates provided to students. "
+6,"The fields of study are adapted from the 2016 Classification of Instructional Programs (CIP), Statistics Canada's standard for the classification of instructional programs."
+
+"Correction ID","Correction Date","Correction Note"
+"1280","2020-10-21","On October 21, 2020, the Tuition and Living Accommodation Costs survey data have been corrected for the reference years 2019/2020 and 2020/2021 due to an error that occurred during data processing that impacted one Alberta college. This error impacts the average tuition fees for Alberta and Canada for Canadian and international undergraduate students. Two fields of study were impacted – Visual and performing arts, and communications technologies and Other health, parks, recreation and fitness.",
+
